@@ -1,0 +1,22 @@
+/*Color */
+
+
+/*Primary Color */
+
+$colorDarkcyan: hsl(158, 36%, 37%);
+$colorCream: hsl(30, 38%, 92%);
+
+/*Neutral Color */
+
+$colorVerydarkblue: hsl(212, 21%, 14%);
+$colorDarkgrayishblue: hsl(228, 12%, 48%);
+$colorWhite: hsl(0, 0%, 100%);
+
+/*mixin */
+
+@mixin flex($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+@import "./variable";
+@import "./card";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include flex(column,
+    center);
+    max-width: 1440px;
+    font-size: 1rem;
+    font-family: "Fraunces", serif;
+    font-family: "Montserrat", sans-serif;
+    background-color: $colorCream;
+    @media (min-width: 42em) {
+        height: 100vh;
+    }
+}
+
+img {
+    max-width: 100%;
+}
